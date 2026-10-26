@@ -1,0 +1,27 @@
+{
+  "source_root": "C:/Users/you/OneDrive/Team Documents/Projects",
+  "state_dir": "C:/Users/you/AppData/Local/DirectorySearchState",
+  "site_url": "https://example.sharepoint.com/sites/team-docs",
+  "library_path": "Shared Documents",
+  "source_folder": "Projects",
+  "index_folder": "Directory Search Index",
+  "freshness_hours": 48,
+  "plugin": {
+    "name": "team-project-search",
+    "display_name": "Team Project Search",
+    "description": "Find files in the team's SharePoint project directory.",
+    "developer_name": "Your team"
+  },
+  "custom_fields": [
+    {
+      "key": "project_code",
+      "label": "Project code",
+      "guidance": "Record project codes explicitly present in the content. Leave empty when none appear."
+    },
+    {
+      "key": "workstream",
+      "label": "Workstream",
+      "guidance": "Record named workstreams clearly supported by the content. Leave empty otherwise."
+    }
+  ]
+}
